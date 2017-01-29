@@ -4,16 +4,6 @@
      "title": "¿Qué es SAP y para qué sirve?",
      "thumbnail": "/img/que-es-sap.jpg",
      "url": "/que-es-sap.html"
-   }//,
-   /*{
-     "title": "The tastiest recipes with AMP",
-     "thumbnail": "/img/recipe_thumb.jpg",
-     "url": "/samples_templates/recipe/preview"
-   },
-   {
-     "title": "News Articles with AMP",
-     "thumbnail": "/img/video_thumb.jpg",
-     "url": "/samples_templates/news_article/preview"
-   }*/
+   }
  ]
 }
