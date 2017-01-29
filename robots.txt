@@ -1,0 +1,10 @@
+User-agent: Mediapartners-Google
+Disallow: 
+
+User-agent: *
+Disallow: /img/
+Disallow: /css/
+Disallow: /json/
+Allow: /
+
+Sitemap: http://m.consultoria-sap.com/sitemap.xml
