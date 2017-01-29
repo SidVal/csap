@@ -124,10 +124,10 @@ padding:0 5px 0 5px;
     
     <h2>Índice de artículos AMP</h2>
 		
-		<amp-list width=300
+		<amp-list width=auto
 		height=75
 		layout=responsive
-		src="/json/indice.json">
+		src="http://m.consultoria-sap.com/json/indice.json">
 		<template type="amp-mustache">
 		<a class="card related"
 				href={{url}}>
@@ -136,7 +136,15 @@ padding:0 5px 0 5px;
 					src="{{thumbnail}}"></amp-img>
 				<span>{{title}}</span>
 				</a>
-	</template>
+		</template>
+		<div>
+        	    <button overflow
+                	role=button
+                	aria-label="Mostrar más"
+                	class="list-overflow">
+              Mostrar más
+              </button>
+          </div>
 	</amp-list>
 		
     
