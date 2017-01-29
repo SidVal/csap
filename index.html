@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-		<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
-		<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-		<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
-    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+	<script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <link rel="canonical" href="http://m.consultoria-sap.com/index.html">
     
     <title>Consultoria-SAP (Móviles)</title>
@@ -124,28 +122,10 @@ padding:0 5px 0 5px;
     
     <h2>Índice de artículos AMP</h2>
 		
-		<amp-list width=300
-		height=75
-		layout=responsive
-		src="https://sidval.github.io/csap/json/indice.json">
-		<template type="amp-mustache">
-		<a class="card related"
-				href={{url}}>
-			<amp-img width="101"
-					height="75"
-					src="{{thumbnail}}"></amp-img>
-				<span>{{title}}</span>
-				</a>
-		</template>
-		<div>
-        	    <button overflow
-                	role=button
-                	aria-label="Mostrar más"
-                	class="list-overflow">
-              Mostrar más
-              </button>
-          </div>
-	</amp-list>
+<ul class="related">
+	<li><a href="/que-es-sap.html" title="Qué es y para qué sirve SAP - Consultoria-SAP.com">¿Qué es SAP?</a>
+	</li>       
+</ul>
 		
     
 <amp-analytics type="googleanalytics">
