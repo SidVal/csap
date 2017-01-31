@@ -6,6 +6,7 @@ description: Artículos de ayuda ERP SAP en español. Tips, instructivos, descar
 hostname: m.consultoria-sap.com # used to determine if google analytics should be triggered
 url: http://m.consultoria-sap.com # the base hostname & protocol for your site
 # permalink: /:title/
+locale: es_ES
 
 twitter_username: sap_blog
 facebook_username: consultoriaSAP
