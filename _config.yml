@@ -1,1 +1,15 @@
+# Site settings
+title: Consultoria-SAP ⚡
+person_nickname: SidV
+description: Artículos de ayuda ERP SAP en español. Tips, instructivos, descargas, y todo SAP en un sitio.
+# baseurl: "" # the subpath of your site, e.g. /blog/
+hostname: m.consultoria-sap.com # used to determine if google analytics should be triggered
+url: http://m.consultoria-sap.com # the base hostname & protocol for your site
+# permalink: /:title/
+
+twitter_username: sap_blog
+facebook_username: consultoriaSAP
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-cayman
